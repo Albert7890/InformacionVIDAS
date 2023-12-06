@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Información VIDAS</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-image: url('https://img.freepik.com/vector-premium/diseno-vector-fondo-concepto-innovacion-patron-medico-atencion-medica-ciencia_230610-1549.jpg?w=2000');
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            color: #f2f2f2;
+        }
+        .navbar {
+            overflow: hidden;
+            background: linear-gradient(to right, #1e90ff, #6495ed); /* Degradado de colores azules */
+            position: fixed;
+            top: 0;
+            width: 100%;
+            height: 60px; /* Ajusta la altura de la barra de navegación */
+            line-height: 60px; /* Centra verticalmente el texto y la imagen */
+        }
+        .navbar a {
+            float: left;
+            display: block;
+            color: #FFFFFF;
+            text-align: center;
+            padding: 0 16px; /* Ajusta el relleno para que solo afecte a los lados */
+            text-decoration: none;
+            font-family: 'Segoe UI', sans-serif;
+            font-weight: bold; /* Letras en negrita */
+        }
+        .navbar img {
+            float: left;
+            padding: 5px 16px; /* Ajusta el relleno para que la imagen esté centrada verticalmente */
+            height: 50px; /* Ajusta el tamaño de la imagen según sea necesario */
+        }
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .sub-navbar {
+            overflow: hidden;
+            background-color: #000080; /* Azul marino oscuro */
+            position: fixed;
+            top: 60px; /* Posición debajo de la barra de navegación */
+            width: 100%;
+            height: 10px; /* Ajusta la altura de la sub-barra de navegación */
+        }
+        .main-content {
+            text-align: center;
+            color: #333333; /* Color de texto más oscuro */
+            margin-top: 70px; /* Ajusta el margen superior para que el contenido principal esté debajo de las barras de navegación */
+            background-color: #FFFFFF; /* Fondo blanco */
+            border: 2px solid #6495ed; /* Borde del mismo color que el menú de la página */
+            padding: 20px; /* Relleno alrededor del texto */
+            width: 80%; /* Ajusta el ancho del contenido principal */
+            margin-left: auto; /* Centra horizontalmente el contenido principal */
+            margin-right: auto; /* Centra horizontalmente el contenido principal */
+        }
+        .main-content h1 {
+            font-size: 2em; /* Título en letras grandes */
+        }
+        .main-content p {
+            font-size: 1em; /* Texto después del título de tamaño normal */
+        }
+        .logo-container {
+            position: relative; /* Contenedor para la imagen del logo */
+            width: 100px; /* Ajusta el ancho del contenedor según sea necesario */
+            height: 100px; /* Ajusta la altura del contenedor según sea necesario */
+            margin: 20px auto; /* Centra horizontalmente el contenedor y añade un margen superior e inferior */
+        }
+        .logo-container img {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+        /* Ajustes para pantallas pequeñas */
+        @media screen and (max-width: 600px) {
+            .navbar a, .navbar img {
+                float: none;
+                display: block;
+                text-align: left; /* Alinea el texto a la izquierda en pantallas pequeñas */
+            }
+            .navbar {
+                height: auto; /* Ajusta la altura de la barra de navegación en pantallas pequeñas */
+                line-height: normal; /* Ajusta la alineación vertical del texto en pantallas pequeñas */
+            }
+            .sub-navbar {
+                top: auto; /* Ajusta la posición de la sub-barra de navegación en pantallas pequeñas */
+            }
+            .main-content {
+                margin-top: 10px; /* Ajusta el margen superior del contenido principal en pantallas pequeñas */
+                width: 90%; /* Ajusta el ancho del contenido principal en pantallas pequeñas */
+            }
+        }
+    </style>
+<head>
+<style>
+    .main-content p {
+        text-align: justify;
+    }
+    .logo-container {
+        display: flex;
+        justify-content: center;
+    }
+    .logo-container img {
+        width: 90%; /* Ajusta este valor según el tamaño que desees */
+        height: auto; /* Añade esta línea para mantener la relación de aspecto original de la imagen */
+    }
+</style>
+</head>
+<body>
+    <div class="navbar">
+        <img src="https://i.ibb.co/NK6Lg3L/Logo-p-gina-web-cutout.png" alt="Logo"> <!-- Añade la URL de tu logo en src -->
+        <a href="#Inicio">Inicio</a>
+        <a href="#Información">Información</a>
+        <a href="#Prevención">Prevención</a>
+        <a href="#Contacto">Contacto</a>
+    </div>
+    <div class="sub-navbar"></div> <!-- Añade la sub-barra de navegación debajo de la barra de navegación -->
+    <div class="main-content">
+        <h1>¿Quiénes somos?</h1>
+        <p>VIDAS es una plataforma encargada de brindar información para la prevención del consumo de sustancias, el nombre del sitio son las siglas de "Vinculación e Información para el Desarrollo y Apoyo contra las Sustancias". Nuestro objetivo es proporcionar un espacio seguro y confiable donde se pueda encontrar información al mismo tiempo que recursos útiles para prevenir o lidiar con su consumo.
+
+Cremos en el poder de la educación para cambiar las vidas de las personas, nuestra página web está diseñada para ser fácil de usar y navegar en ella, esta contiene bastante información relevante como actualizada sobre diferentes tipos de sustancias.Ya sea que esté buscando información general sobre el consumo de las mismas, consejos para la prevención, o recursos de apoyo, VIDAS está aquí para ayudar.
+
+Estamos comprometidos con la transparencia y la confidencialidad, garantizamos que toda la información compartida en nuestra plataforma se maneja con el mayor cuidado y respeto. Invitamos a todos a explorar VIDAS, a utilizar los recursos que ofrecemos y a que juntos hagamos una diferencia en la lucha contra el consumo de sustancias. ¡Gracias por confiar en nosotros! ¡Bienvenido a VIDAS!</p>
+        <div class="logo-container">
+            <img src="https://i.ibb.co/NK6Lg3L/Logo-p-gina-web-cutout.png" alt="Logo"> <!-- Añade la URL de tu logo en src -->
+        </div>
+    </div>
+</body>
